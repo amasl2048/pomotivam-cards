@@ -1,0 +1,938 @@
+{
+    "1": {
+        "card_hash": "2e6c7cf108549c74fce98776116000ee2c9195129d30750f7d14352f879c9c63",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "433fca17d5a6be906aba6062315d1da5b566e51a9a660ec59aa6f74bd600b28d29939fe3a41e590ea3f37d540d378f8d72ecf0796b17e4adb7bc15a5f2a0cdd9",
+                "memo": "The Times 07/Oct/2023 Arnie My new life as a self-help guru"
+            },
+            "body": {
+                "number": "N001",
+                "prev_hash": 0,
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Идея - это не спортивная команда,\nза которую болеешь\".",
+                "color": [
+                    174,
+                    150,
+                    200
+                ]
+            }
+        }
+    },
+    "2": {
+        "card_hash": "ebfcf47aea71dc2a822eba5979f36c7e7dfaecd4b602aeedec5e181c688f4aee",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "030be1546767663bb6687f8864c039915fa0bf6d13f38c9534fabf2e88bf745a4dfce0c40f1ade4a3236203e4575aa486e1c8f6dacf788bc1ec8c825b3c059bc",
+                "memo": ""
+            },
+            "body": {
+                "number": "N002",
+                "prev_hash": "2e6c7cf108549c74fce98776116000ee2c9195129d30750f7d14352f879c9c63",
+                "link": "t.me/pomotivam_cards",
+                "picture": "silaev",
+                "tag": "#Silaev",
+                "author": "Александр Силаев,\nтрейдер",
+                "text": "\"Нет непризнанных гроссмейстеров\".",
+                "color": [
+                    200,
+                    151,
+                    150
+                ]
+            }
+        }
+    },
+    "3": {
+        "card_hash": "9fb2abfe1b256e63c83613e5edd1423f0ce78fb03b0e54efad6a612c18d1db0a",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "1f8b99dd09ae0706a06091a199d46c9ae6be3b2455f0c7ff26f826a29c8b11be798cd1a6040c0fc6dc54344aff96882d03d736542185642b9ad5b2711f950098",
+                "memo": ""
+            },
+            "body": {
+                "number": "N003",
+                "prev_hash": "ebfcf47aea71dc2a822eba5979f36c7e7dfaecd4b602aeedec5e181c688f4aee",
+                "link": "t.me/pomotivam_cards",
+                "picture": "silaev",
+                "tag": "#Silaev",
+                "author": "Александр Силаев,\nтрейдер",
+                "text": "\"Человек - существо по производству\n гипотез. Нам всегда что-то кажется\".",
+                "color": [
+                    161,
+                    200,
+                    150
+                ]
+            }
+        }
+    },
+    "4": {
+        "card_hash": "0d75fdc7cf9ce3146f85d808d020a791042a12165a7fc81245b53db925a2d365",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "fcb9ceeaf92a514ed40bb57ce4e6547a28b40174243e4f4b37ab08fa18810b512f4e66a207854d2ff56af42e272358e4119e7b7643e042b799e641f8111ef1d5",
+                "memo": ""
+            },
+            "body": {
+                "number": "N004",
+                "prev_hash": "9fb2abfe1b256e63c83613e5edd1423f0ce78fb03b0e54efad6a612c18d1db0a",
+                "link": "t.me/pomotivam_cards",
+                "picture": "silaev",
+                "tag": "#Silaev",
+                "author": "Александр Силаев,\nтрейдер",
+                "text": "\"Лучше существенно снизить риск рака,\nчем полностью исключить ОРЗ\".",
+                "color": [
+                    190,
+                    150,
+                    200
+                ]
+            }
+        }
+    },
+    "5": {
+        "card_hash": "f244bdb7eb6ad56bbc682dc61a2f274b218fe58218bfb6517f231494b9c506e1",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "effc728c0dc4981537694a98fc424a67fb22869e9c0a0d711a189cc1158878f9bf3480945b8d05950ea880a42f741b9dd89421e88ebaef2bb31d85b128e8a3cf",
+                "memo": ""
+            },
+            "body": {
+                "number": "N005",
+                "prev_hash": "0d75fdc7cf9ce3146f85d808d020a791042a12165a7fc81245b53db925a2d365",
+                "link": "t.me/pomotivam_cards",
+                "picture": "kaneman",
+                "tag": "#Kaneman",
+                "author": "Даниэль Канеман",
+                "text": "\"Эвристика доступности:\nто, что быстрее вспоминаем,\nкажется самым распространенным\".",
+                "color": [
+                    150,
+                    167,
+                    200
+                ]
+            }
+        }
+    },
+    "6": {
+        "card_hash": "955b32f713c995626b2a40004d8eee9320892eed258a3be8ef92c5b763ae493b",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "599d1eda8a323bb4386678be76b7cdca89d926bb47cec5294cedc490d52746c7a1cb99acd1eaeea696f8d7ea967d22c1e8c10ed5582a619cb6d7b3f3b7a4359e",
+                "memo": ""
+            },
+            "body": {
+                "number": "N006",
+                "prev_hash": "f244bdb7eb6ad56bbc682dc61a2f274b218fe58218bfb6517f231494b9c506e1",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Общества меняются.\nИстория не повторяется.\nНаследие - не приговор\".",
+                "color": [
+                    200,
+                    150,
+                    197
+                ]
+            }
+        }
+    },
+    "7": {
+        "card_hash": "d7cb8d9e18f02b880d25e81d025f5e4e1953fedb3f1164d05fded0e03e834922",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "84be63e29cd56c94114176614bb80c0d8c776cddfe951196ecbb44f51629d36a29a0e8d2a8ad3b4859d977c422a9c307cc358e4001c48ada85a3fb631c00b54c",
+                "memo": ""
+            },
+            "body": {
+                "number": "N007",
+                "prev_hash": "955b32f713c995626b2a40004d8eee9320892eed258a3be8ef92c5b763ae493b",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Мантра авторитаризма:\nзачем суетиться - ничего не изменишь,\nсебе сделаешь хуже\".",
+                "color": [
+                    150,
+                    200,
+                    178
+                ]
+            }
+        }
+    },
+    "8": {
+        "card_hash": "039e5c10c720af5bf630eb21250686c09d327bd2c6aeaf9ebf15ab310b79183b",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "daefa87b26eead2664160204054ce60dfa76d564a013279e23d005b4978b2448e914569153d861b327d28fec1526b31065b7519705765e2ac259268a95b0aa1c",
+                "memo": ""
+            },
+            "body": {
+                "number": "N008",
+                "prev_hash": "d7cb8d9e18f02b880d25e81d025f5e4e1953fedb3f1164d05fded0e03e834922",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"В привычной ситуации бесправия\nзнают, что усилия не имеют результата\".",
+                "color": [
+                    150,
+                    200,
+                    170
+                ]
+            }
+        }
+    },
+    "9": {
+        "card_hash": "2f17b351c2acfa1ce913cea6b63fd532c4b321e950f94b902d20a049b74210dc",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e2f2a60d23519ffb9e1bfc6d5c0cf0edf9282119c84841bd13dcac85d390b10d988d811d8a3774b3fbf6322f94c49c68732219d2c5d4aac54c8e1455507b950f",
+                "memo": ""
+            },
+            "body": {
+                "number": "N009",
+                "prev_hash": "039e5c10c720af5bf630eb21250686c09d327bd2c6aeaf9ebf15ab310b79183b",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Произойти может всё, что угодно.\nМёртвые только не воскресают\".",
+                "color": [
+                    200,
+                    150,
+                    162
+                ]
+            }
+        }
+    },
+    "10": {
+        "card_hash": "c8f9b70a4ac08a4bdfc1bdca7e597e49752b421bfa820ede9cb14d1ccb725032",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e0069d9b5fb6d9a2b6d20302995afdc7fa6ff4a9ce70a53e64215d7e25e0218f3b57f6a52980e1d1eab5cc9acf3054d411b5fa07f395f575096bc15c44b8a496",
+                "memo": ""
+            },
+            "body": {
+                "number": "N010",
+                "prev_hash": "2f17b351c2acfa1ce913cea6b63fd532c4b321e950f94b902d20a049b74210dc",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Антирациональность:\nот вывода к отбору свидетельств\".",
+                "color": [
+                    200,
+                    151,
+                    150
+                ]
+            }
+        }
+    },
+    "11": {
+        "card_hash": "b9e2b8b89309258ebaf32aa265267b0790d271c24a36879f135c753bc493c7fd",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "02265e27e55bfb59d6b077d4305cada5a5de06d076f7dcdc6e7bdcdf1c57f0f38b9e8c2495c61250d387c75fe3b3a159fcf65ad81d31642bbcbb4dfe31a781a4",
+                "memo": ""
+            },
+            "body": {
+                "number": "N011",
+                "prev_hash": "c8f9b70a4ac08a4bdfc1bdca7e597e49752b421bfa820ede9cb14d1ccb725032",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Отсутствие доказательств -\nне доказательство отсутствия,\nа отсутствие свидетельств -\nсвидетельство отсутствия\".",
+                "color": [
+                    150,
+                    200,
+                    171
+                ]
+            }
+        }
+    },
+    "12": {
+        "card_hash": "05427e46c0d05550088a2c3aab74297357170096a6ba157bc42c8bb826023647",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "10726a6069d5c7f78ca89f09fb16e7ab678f84a82490bf23a56c039a52fa6dc93355fb134165bc834b68733b415bdc98308bb69829f718267084a0962942037f",
+                "memo": ""
+            },
+            "body": {
+                "number": "N012",
+                "prev_hash": "b9e2b8b89309258ebaf32aa265267b0790d271c24a36879f135c753bc493c7fd",
+                "link": "t.me/pomotivam_cards",
+                "picture": "popper",
+                "tag": "#Popper",
+                "author": "Карл Поппер",
+                "text": "\"Неограниченная толерантность\nведёт к исчезновению толерантности\".",
+                "color": [
+                    150,
+                    200,
+                    195
+                ]
+            }
+        }
+    },
+    "13": {
+        "card_hash": "1fecbaed41364e88b11da59153c5211a6868351b9ab3e3b0e3060c222bfd2d2f",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e45c1013738bb3efc8187f46e6c0f442574fce3e3b2af75a65b53040710f170471e72032d6332daecfca8c672243443922f46993f7b87ae10d32daeb4c003de3",
+                "memo": ""
+            },
+            "body": {
+                "number": "N013",
+                "prev_hash": "05427e46c0d05550088a2c3aab74297357170096a6ba157bc42c8bb826023647",
+                "link": "t.me/pomotivam_cards",
+                "picture": "popper",
+                "tag": "#Popper",
+                "author": "Карл Поппер",
+                "text": "\"Если теория нефальсифицируема -\nона ненаучна\".",
+                "color": [
+                    200,
+                    182,
+                    150
+                ]
+            }
+        }
+    },
+    "14": {
+        "card_hash": "6f84d25e09e8bab0acdfd3373cb9bb6438368fa2fc4c42ffe8ea765bffaf38b8",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "aa83f92098f11028888556e4ddb8b2c9d6c6e247d27a4e0ee4b84fe82c28b33adabc9a337ecc6ef8fc0c2e6f23d8e463eef4baa3c8d2496ce3f1322edab8a90d",
+                "memo": ""
+            },
+            "body": {
+                "number": "N014",
+                "prev_hash": "1fecbaed41364e88b11da59153c5211a6868351b9ab3e3b0e3060c222bfd2d2f",
+                "link": "t.me/pomotivam_cards",
+                "picture": "movchan",
+                "tag": "#Movchan",
+                "author": "Андрей Мовчан,\nфинансист",
+                "text": "\"Прогноз - это то, что показывает модель,\nа то что будет - никто не знает\".",
+                "color": [
+                    199,
+                    200,
+                    150
+                ]
+            }
+        }
+    },
+    "15": {
+        "card_hash": "0f46d6c719f93180c60602c34dddad2fae630555f4cdf6676b603e2f7a511bb6",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "c4d20062e43d60fd9ca7703ee20a54891bec12008ed3227d872411e8d3de445015772583c076aa25b21a34e34ac9bf48208c6af7bb1ae917eb90dbb0af01ed38",
+                "memo": ""
+            },
+            "body": {
+                "number": "N015",
+                "prev_hash": "6f84d25e09e8bab0acdfd3373cb9bb6438368fa2fc4c42ffe8ea765bffaf38b8",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Случайный ключ\nне откроет случайный замок\".",
+                "color": [
+                    150,
+                    172,
+                    200
+                ]
+            }
+        }
+    },
+    "16": {
+        "card_hash": "6d1ad43cd4a5557aee0277f9f8d674c1454c37ba2de39718ebf3abe4a721edd0",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "057b22bff36c3ee0bcd66443405a0ede0c08fd941036b75f1be5c959fb6a2d3cb9765b0224918b94b040c6611dabc22e9dcd558a6bb3dc02dacfb38762a91cc9",
+                "memo": ""
+            },
+            "body": {
+                "number": "N016",
+                "prev_hash": "0f46d6c719f93180c60602c34dddad2fae630555f4cdf6676b603e2f7a511bb6",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Глобальная дорога - к прогрессу.\nНо кто-то свернет в Средневековье\".",
+                "color": [
+                    156,
+                    150,
+                    200
+                ]
+            }
+        }
+    },
+    "17": {
+        "card_hash": "fc51a0dcaf2dc18c2fbb409a8c6a8aa6bb06e07ed89d6dee48bd1dada88f7009",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e98cc7e5258bbc844cb09362289f05d23cdd4936b23bcc95b9ef2b4501f6a3b4d7ce7679d58ffdaf128d4b83eaca029685a83b9893fcd93c117935d7ebc1d7ce",
+                "memo": ""
+            },
+            "body": {
+                "number": "N017",
+                "prev_hash": "6d1ad43cd4a5557aee0277f9f8d674c1454c37ba2de39718ebf3abe4a721edd0",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Факты не знают\nна чьей они стороне\".",
+                "color": [
+                    200,
+                    150,
+                    191
+                ]
+            }
+        }
+    },
+    "18": {
+        "card_hash": "b45c4940156f5d1706184ddab949b48142f4ffc8d907de8446ff5dc58ef19396",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "32a7969e3696bec9f12a00a2c8df8918d7b22f62e09aa1a7bf7c9361b3f930be583007ea0de0df2a0e8995992a89277449435e4dc73b03bcc80a3b74c141bd9c",
+                "memo": ""
+            },
+            "body": {
+                "number": "N018",
+                "prev_hash": "fc51a0dcaf2dc18c2fbb409a8c6a8aa6bb06e07ed89d6dee48bd1dada88f7009",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Недостаточно сравнивать варианты,\nнужно их создавать\".",
+                "color": [
+                    150,
+                    181,
+                    200
+                ]
+            }
+        }
+    },
+    "19": {
+        "card_hash": "970fd34c6b5048767be90da43531ac8ced7eaee4dbab6b03e8d9e13e6383a702",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "23d6299e2a99d09d56e6ff29913e03e97202b8d41ae5e11a1f4fa52e38bcf670e0eeed876642b45b004bed1bc4b640564a0e808fe11f205f57da49b9af6cf66c",
+                "memo": ""
+            },
+            "body": {
+                "number": "N019",
+                "prev_hash": "b45c4940156f5d1706184ddab949b48142f4ffc8d907de8446ff5dc58ef19396",
+                "link": "t.me/pomotivam_cards",
+                "picture": "silaev",
+                "tag": "#Silaev",
+                "author": "Александр Силаев,\nфилософ",
+                "text": "\"О значении слов\nдоговариваются, а не спорят\".",
+                "color": [
+                    200,
+                    150,
+                    186
+                ]
+            }
+        }
+    },
+    "20": {
+        "card_hash": "e972fb5b534bb2e2ccbce048249e6632e229702c7839ee2a8a0934eb6cb2aba1",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e56c253c987d89000cdd782565d7590e2e42d134758956d5bbae4f4ad2d4c152c9fe8ae305e2a1d3d5e29e845864ce3ff8987145cf384df5123ff7afefc3ad7f",
+                "memo": ""
+            },
+            "body": {
+                "number": "N020",
+                "prev_hash": "970fd34c6b5048767be90da43531ac8ced7eaee4dbab6b03e8d9e13e6383a702",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Вероятность 100% - \nэто бесконечная определенность\".",
+                "color": [
+                    150,
+                    200,
+                    175
+                ]
+            }
+        }
+    },
+    "21": {
+        "card_hash": "0c44109b7f1cec64dacbd45ad8466b556a44eab27fc37b6ea652c0722ac5b1b2",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "50a3cae91e5e4255bd000945b7827170eca5a05403e094344030a2f1725703d20dcc66b57d8d13db8b63371c09c8465d34e8893e6674093bcfa424c9f623e0ec",
+                "memo": ""
+            },
+            "body": {
+                "number": "N021",
+                "prev_hash": "e972fb5b534bb2e2ccbce048249e6632e229702c7839ee2a8a0934eb6cb2aba1",
+                "link": "t.me/pomotivam_cards",
+                "picture": "udkovsky",
+                "tag": "#Udkovsky",
+                "author": "Элиезер Юдковский",
+                "text": "\"Признаки обмана:\nсначала будет хуже, потом лучше\".",
+                "color": [
+                    200,
+                    150,
+                    158
+                ]
+            }
+        }
+    },
+    "22": {
+        "card_hash": "84dba91ae8bba0a04375afee3da1bb3d9fb54a8ac0b16c1d5b36cd65735c1f46",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "9148f71ecaad2e3c56435dc137c8189e7257df75033adc03ee479aeffc9a851e25a400ac29bd7d466f4f45e9456701407b8cf8574079979d0eaf86a60477a044",
+                "memo": ""
+            },
+            "body": {
+                "number": "N022",
+                "prev_hash": "0c44109b7f1cec64dacbd45ad8466b556a44eab27fc37b6ea652c0722ac5b1b2",
+                "link": "t.me/pomotivam_cards",
+                "picture": "dobelli",
+                "tag": "#Dobelli",
+                "author": "Рольф Добелли,\nбизнесмен",
+                "text": "\"Мозг любит драму, а не статистику\".",
+                "color": [
+                    151,
+                    200,
+                    150
+                ]
+            }
+        }
+    },
+    "23": {
+        "card_hash": "edcd939a35fe15e6c98e174cc12a4f0abce7590c1942899aebabd4a3ce4b40bd",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "3866569f52702a2f9e9f0fc5ccb03d551f36c701bef03e5ea37802047581d25bb99181a643c57a1647996553041bbc93de10faacf364a8c8f0255db68217dbd2",
+                "memo": ""
+            },
+            "body": {
+                "number": "N023",
+                "prev_hash": "84dba91ae8bba0a04375afee3da1bb3d9fb54a8ac0b16c1d5b36cd65735c1f46",
+                "link": "t.me/pomotivam_cards",
+                "picture": "dobelli",
+                "tag": "#Dobelli",
+                "author": "Рольф Добелли,\nбизнесмен",
+                "text": "\"Сюжетные линии привлекают,\nабстрактные факты - отталкивают\".",
+                "color": [
+                    150,
+                    200,
+                    150
+                ]
+            }
+        }
+    },
+    "24": {
+        "card_hash": "a0ff23255c5393edbdba0f800b655c8c66616d38e9ccdaa5d4660ccb41cebbee",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e02e957182127c61b9c3bfe731658f0ed1f6d31aaf46f20378a3efae49b4d30a3abf52bfdeec9bc96ee8156e0f3052d73369ebc5262b1f346e84f08e02fbddea",
+                "memo": ""
+            },
+            "body": {
+                "number": "N024",
+                "prev_hash": "edcd939a35fe15e6c98e174cc12a4f0abce7590c1942899aebabd4a3ce4b40bd",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Основной инстинкт - это желание быть\nодобренным своей социальной группой\".",
+                "color": [
+                    150,
+                    195,
+                    200
+                ]
+            }
+        }
+    },
+    "25": {
+        "card_hash": "4d9f7441f19e4b9951637614dad86337fb12d9b19e9583a5523c640c39d34b61",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "24251cb0460b9d12aba53070998fe68b52cd258f31fa1604656e6d99f8493957078c297c0bcaf0a72dce265840d218929c76e7c18646def58c27d85047cd99ca",
+                "memo": ""
+            },
+            "body": {
+                "number": "N025",
+                "prev_hash": "a0ff23255c5393edbdba0f800b655c8c66616d38e9ccdaa5d4660ccb41cebbee",
+                "link": "t.me/pomotivam_cards",
+                "picture": "silaev",
+                "tag": "#Silaev",
+                "author": "Александр Силаев,\nфилософ",
+                "text": "\"Агрессия - это пересечение границ,\nа не само по себе оскорбление чувств\".",
+                "color": [
+                    200,
+                    150,
+                    169
+                ]
+            }
+        }
+    },
+    "26": {
+        "card_hash": "ff119bf4df26c95c2358980443e4f994a789cec489fb166f1446382e6bc4e3c6",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "1375cc883e702b5e5877635ca493cf6f96d65c4ece3584b28d3154c3ee8860e5ee273c39eac8aa34ed3f471aaec1cd247ffa8098512821c5bc368854d8a2cea7",
+                "memo": ""
+            },
+            "body": {
+                "number": "N026",
+                "prev_hash": "4d9f7441f19e4b9951637614dad86337fb12d9b19e9583a5523c640c39d34b61",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Отрицательный отбор:\nлояльность вместо компетенции\".",
+                "color": [
+                    189,
+                    200,
+                    150
+                ]
+            }
+        }
+    },
+    "27": {
+        "card_hash": "069c82943d7c6190031d2cc3fa7e5e552e169dfa66c82168e17ff3e43a3f087f",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "7bf819cdacf38229bafb32c4b71d038925b57ee6061b3f9af46c60fb88a04be14fa81dcee32f51f911cdc327a0d58a0c6952f17abbaadbbafdb0e1eb5a1a4325",
+                "memo": ""
+            },
+            "body": {
+                "number": "N027",
+                "prev_hash": "ff119bf4df26c95c2358980443e4f994a789cec489fb166f1446382e6bc4e3c6",
+                "link": "t.me/pomotivam_cards",
+                "picture": "housel",
+                "tag": "#Housel",
+                "author": "Морган Хаузел,\nфинансист",
+                "text": "\"Контроль над своим временем - это то,\nчто даёт постоянный уровень счастья\".",
+                "color": [
+                    150,
+                    172,
+                    200
+                ]
+            }
+        }
+    },
+    "28": {
+        "card_hash": "9b43ceb021f57511259aa39573dbd3f965d0d5605ebcc1976d649406147258c2",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "e5cd03992e3efc21794f31e4b6da2d87288c5d1a16542e1dac4ab17c92c657071f484c8ebd66124122992543ed69ba368a517463d573b905a4a9a75552e9c285",
+                "memo": ""
+            },
+            "body": {
+                "number": "N028",
+                "prev_hash": "069c82943d7c6190031d2cc3fa7e5e552e169dfa66c82168e17ff3e43a3f087f",
+                "link": "t.me/pomotivam_cards",
+                "picture": "prasad",
+                "tag": "#Prasad",
+                "author": "Моника Прасад,\nсоциолог",
+                "text": "\"Подразумеваемое оправдание:\nвера в существование причины -\nважнее самих фактов\".",
+                "color": [
+                    200,
+                    174,
+                    150
+                ]
+            }
+        }
+    },
+    "29": {
+        "card_hash": "bffc11fde465af60402658d68bf7335f462553c8dc859ff6d5752d28c65ec8e1",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "1575b28b1b468b35abfca1e9e1ab8141d667248f5623b29a5f0b70222f1506a2e19a7cde8f5c029ccc058848990d751e742d5a3591b5f93dad3ed583132d5690",
+                "memo": ""
+            },
+            "body": {
+                "number": "N029",
+                "prev_hash": "9b43ceb021f57511259aa39573dbd3f965d0d5605ebcc1976d649406147258c2",
+                "link": "t.me/pomotivam_cards",
+                "picture": "housel",
+                "tag": "#Housel",
+                "author": "Морган Хаузел,\nфинансист",
+                "text": "\"Ценят победителей, а не таланты\".",
+                "color": [
+                    200,
+                    181,
+                    150
+                ]
+            }
+        }
+    },
+    "30": {
+        "card_hash": "3bb1a7ad1eff0bc0f3362ddf96d4fd433db0b850646a334a50e206e42166f753",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "0ad902e895a6dc89b6eb308fa4f61ac6664a32a39f8094939e99fbd6c0af3accd2c2745395461bc15a480ad48dd1f6473d49a2666777db4234351248e74211a9",
+                "memo": ""
+            },
+            "body": {
+                "number": "N030",
+                "prev_hash": "bffc11fde465af60402658d68bf7335f462553c8dc859ff6d5752d28c65ec8e1",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Лишение субъектности: не мы такие -\nжизнь такая, нас вынудили\".",
+                "color": [
+                    155,
+                    150,
+                    200
+                ]
+            }
+        }
+    },
+    "31": {
+        "card_hash": "57397101c7025087e5980ad191584ac66fcff172c082f80e2831197bab03ba49",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "ef6708fcf3abc3f43256bf826d16a2c352965096afff5a73b973bd9e1435281727d238747b49ebee347b8ce0f315f6de66afebcb1aa3f16aa99094f1fc6c81df",
+                "memo": ""
+            },
+            "body": {
+                "number": "N031",
+                "prev_hash": "3bb1a7ad1eff0bc0f3362ddf96d4fd433db0b850646a334a50e206e42166f753",
+                "link": "t.me/pomotivam_cards",
+                "picture": "gudhart",
+                "tag": "#Gudhart",
+                "author": "Чарльз Гудхарт,\nэкономист",
+                "text": "\"Если мера становится целью,\nто перестает быть хорошей мерой\".",
+                "color": [
+                    164,
+                    150,
+                    200
+                ]
+            }
+        }
+    },
+    "32": {
+        "card_hash": "8a76d31094c4ec2e6cdd88496bc855f982365770e24e81f3b3b8917d817ecb47",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "4ddb5f9a442f26733c09fe7c190e96e1342a7b48140321bfc8ecabdb2b313576a20372c866bd2d1b2e318a2fcc5d27f419fcdab006110e338cd4cb6636360fb4",
+                "memo": ""
+            },
+            "body": {
+                "number": "N032",
+                "prev_hash": "57397101c7025087e5980ad191584ac66fcff172c082f80e2831197bab03ba49",
+                "link": "t.me/pomotivam_cards",
+                "picture": "housel",
+                "tag": "#Housel",
+                "author": "Морган Хаузел,\nфинансист",
+                "text": "\"Ощущение, что\nвсе прекрасное уже в прошлом,\nникогда не меняется\".",
+                "color": [
+                    150,
+                    152,
+                    200
+                ]
+            }
+        }
+    },
+    "33": {
+        "card_hash": "9779685b23fa0a21ae83238eaa88091d15f2373aaa220e9f93c183e5f643caad",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "0565309dbdc3c94419abdaf1f85049875d088512a9c1cdb6a1f75209c96387ed02e6b224023e2e2cc31b726362af5fb4942e229b1ddc722f290b888006d65e10",
+                "memo": ""
+            },
+            "body": {
+                "number": "N033",
+                "prev_hash": "8a76d31094c4ec2e6cdd88496bc855f982365770e24e81f3b3b8917d817ecb47",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"В автократиях результаты\nвыборов известны заранее -\nнеизвестны последствия\".",
+                "color": [
+                    200,
+                    150,
+                    196
+                ]
+            }
+        }
+    },
+    "34": {
+        "card_hash": "7c89a4841f1bf389ee1105d9402c5d274ee3b8387a05773ecc4fd3bd104962c6",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "4cfc84403a1e11a7feeb8a3d46ce9092368f3f20a37cc81033a02a1cfcb753a4ff6d79f745c99719262bae0125cbbd7b83c98a5676cf7213301e2c8794748aec",
+                "memo": ""
+            },
+            "body": {
+                "number": "N034",
+                "prev_hash": "9779685b23fa0a21ae83238eaa88091d15f2373aaa220e9f93c183e5f643caad",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"В школах преподают урок конформизма,\nпривычку двоемыслия - страх\nвысказать свою реальную позицию\".",
+                "color": [
+                    200,
+                    184,
+                    150
+                ]
+            }
+        }
+    },
+    "35": {
+        "card_hash": "b846ed60f384d72af7c65e71c5282075ea8616ffccb558779d8ed6d52e0814e5",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "2182d44b9a39a8658aa4b20ed98c3d96e0bea0d167e51dbe6151c69be2c4c8f718b1573c2dbfd8215f8368b46caabc6e32592fd1837cd845b6b9b17ed595dc47",
+                "memo": "ETH block 18784285, hash 0x584da7f4"
+            },
+            "body": {
+                "number": "N035",
+                "prev_hash": "7c89a4841f1bf389ee1105d9402c5d274ee3b8387a05773ecc4fd3bd104962c6",
+                "link": "t.me/pomotivam_cards",
+                "picture": "munger",
+                "tag": "#Munger",
+                "author": "Чарли Мангер,\nинвестор",
+                "text": "\"Миром движет не жадность, а зависть\".",
+                "color": [
+                    156,
+                    200,
+                    150
+                ]
+            }
+        }
+    },
+    "36": {
+        "card_hash": "690cd36fa7a51952dcffabf2b4ef50cf93dbab489c6d0bd4d0d68d5acbeb9161",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "d130b91789e17c06cf213cb36eab220b38438a86b5089d25f16af1b0b07439251133f2fd3b21fc4ff29661552923c4ec8e120d6c40fa819461d932ee2ac90a8e",
+                "memo": "ETH block 18898374, hash 0x3ef194f7"
+            },
+            "body": {
+                "number": "N036",
+                "prev_hash": "b846ed60f384d72af7c65e71c5282075ea8616ffccb558779d8ed6d52e0814e5",
+                "link": "t.me/pomotivam_cards",
+                "picture": "amnuel",
+                "tag": "#Amnuel",
+                "author": "Григорий Амнуэль,\nрежисёр",
+                "text": "\"Если не будешь заниматься политикой -\nею займутся негодяи вместо тебя\".",
+                "color": [
+                    200,
+                    150,
+                    178
+                ]
+            }
+        }
+    },
+    "37": {
+        "card_hash": "6248bf2da064af3e5a3d0b9648f232c0a3617b6139a9409ba09aae2eb7606262",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "5ba5cafb5b74dc1c7eaadeb873a0e2f93df0c9082673a8977b1d15a6018212e418c3627741f088f88d532e97efe7a0e3ee6c171e0be1efb773d73c573fd881ff",
+                "memo": "ETH block 19099387, hash 0xc98a5922"
+            },
+            "body": {
+                "number": "N037",
+                "prev_hash": "690cd36fa7a51952dcffabf2b4ef50cf93dbab489c6d0bd4d0d68d5acbeb9161",
+                "link": "t.me/pomotivam_cards",
+                "picture": "yudin",
+                "tag": "#Yudin",
+                "author": "Григорий Юдин,\nсоциолог",
+                "text": "\"Политика - это дело каждого,\nникаких экспертов и правильных\nрешений не существует\".",
+                "color": [
+                    200,
+                    159,
+                    150
+                ]
+            }
+        }
+    },
+    "38": {
+        "card_hash": "c88a4780d6831d753c62bbcc7160e31cc2b6bfaaec4d161a41edf61db336f77c",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "43141f9a5cd2384695ccdf17f4494412b18b998ab3b777796936c16a1b4c8cac7817c6cc20f02fcd2e1586140f27da50981af818adb9d8b4bb771beecfe2d757",
+                "memo": "ETH block 19177942, hash 0x595bde13"
+            },
+            "body": {
+                "number": "N038",
+                "prev_hash": "6248bf2da064af3e5a3d0b9648f232c0a3617b6139a9409ba09aae2eb7606262",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Власть обладает обаянием.\nНеудачники - смешны\".",
+                "color": [
+                    200,
+                    150,
+                    169
+                ]
+            }
+        }
+    },
+    "39": {
+        "card_hash": "fd17b9e926c63cc246ea1f11ad03278edc5f3e6f2af33305139a639eb068174f",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "b1d9a02289c77ee575c42a197744075dedcab93b6928964a847b1ab29be05711c077672371a0675ebc02d4e635f771d334ca202d9410ba6d39525384c5705a3b",
+                "memo": "ETH block 19349244, hash 0x781eb597"
+            },
+            "body": {
+                "number": "N039",
+                "prev_hash": "c88a4780d6831d753c62bbcc7160e31cc2b6bfaaec4d161a41edf61db336f77c",
+                "link": "t.me/pomotivam_cards",
+                "picture": "navalny",
+                "tag": "#Navalny",
+                "author": "Алексей Навальный,\nполитик",
+                "text": "\"Всё, что нужно для торжества зла,\nэто бездействие добрых людей.\nПоэтому бездействовать не надо\".",
+                "color": [
+                    150,
+                    200,
+                    161
+                ]
+            }
+        }
+    }
+}
