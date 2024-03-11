@@ -2,18 +2,35 @@
 <html lang="en-EN">
 
 <head>
-    <title>Card Chain - {{ tag }} #{{ card }}</title>
+    <title>Card Chain #{{ card }} - {{ tag }}</title>
+    <style>
+        #raw {
+            font-family: "Courier New";
+            font-size:11px;
+            display:none;
+        }
+    </style>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("raw");
+        if (x.style.display == "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+    </script>
 </head>
 
 <body>
 
-    <h1><p>{{ tag }} - Pomotivam Cards</p></h1>
-    <h2><p>Card No. {{ card }} - {{ author }}</p></h2>
-    <h3><p>{{ quote }}</p></h3>
+    <h1><p>{{ tag }} - Pomotivam Card No. {{ card }}</p></h1>
+    <h2><p>{{ author }}</p></h2>
+    <p><em>{{ quote }}</em></p>
 
     <img src={{ image }} alt="" width="360" height="240"/>
 
-    <p><a href="/prev?card={{card}}">Prev</a> | <a href="/next?card={{card}}">Next</a></p>
+    <p><a href="/card?card={{prev}}">Prev</a> | <a href="/card?card={{next}}">Next</a></p>
     <p>Choose card from <a href="/card?card=1">1</a> .. <a href="/card?card={{len}}">{{len}}</a> </p>
 
     <form action="/card" method="GET">
@@ -25,8 +42,13 @@
 
     <p style="color:Tomato;">{{ error }}</p>
 
-    <pre  style="font-family:'Courier New'; font-size:11px"> {{ chain }} </pre>
-    <p> <a href="https://t.me/pomotivam_cards">Telegram</a></p>
+    <button onclick="myFunction()">Show raw</button>
+    <pre  id="raw"> {{ chain }} </pre>
+
+    <p>
+        <a href="https://t.me/pomotivam_cards">Telegram</a> | 
+        <a href="https://github.com/amasl2048/pomotivam-cards">Github</a>
+    </p>
 
 </body>
 

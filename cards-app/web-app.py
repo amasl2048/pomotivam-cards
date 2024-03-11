@@ -51,8 +51,13 @@ def render_card(card: str):
     else:
         tag, author, quote = taq(card)
 
+    prev = str(int(card) - 1)
+    next = str(int(card) + 1)
+
     return render_template("cards.html",
                            len=str(LEN),
+                           prev=prev,
+                           next=next,
                            card=card,
                            tag=tag,
                            author=author,
@@ -70,20 +75,6 @@ def root():
 @app.route('/card', methods=['GET'])
 def show_card():
     card = request.args.get("card")
-    return render_card(card)
-
-
-@app.route('/next', methods=['GET'])
-def next_card():
-    card = request.args.get("card")
-    card = str(int(card) + 1)
-    return render_card(card)
-
-
-@app.route('/prev', methods=['GET'])
-def prev_card():
-    card = request.args.get("card")
-    card = str(int(card) - 1)
     return render_card(card)
 
 
