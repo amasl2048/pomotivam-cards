@@ -934,5 +934,29 @@
                 ]
             }
         }
+    },
+    "40": {
+        "card_hash": "defda33bba84918c381f1df8896ff6d806038b9074b0457cde657af6b09235a6",
+        "card": {
+            "header": {
+                "pub_key": "e82f2fadee38a60e92cdea00ee7237af8c1c9e986b56e70a3838bad0ce51f3394bafdc965bb40972845891bea227fa817c5d4cc6416a6d2a8d07defbf43eba75",
+                "sign": "63ebc7f855e7eacf394fbd58822d2bc4a5059766f6e253b9eca4c224debf4a06908f10016e68d7adb090c6ffc132a9411eac68a8258a88a54110cf307b4523be",
+                "memo": "ETH block 19555365, hash 0x45f04f96"
+            },
+            "body": {
+                "number": "N040",
+                "prev_hash": "fd17b9e926c63cc246ea1f11ad03278edc5f3e6f2af33305139a639eb068174f",
+                "link": "t.me/pomotivam_cards",
+                "picture": "shulman",
+                "tag": "#Shulman",
+                "author": "Екатерина Шульман,\nполитолог",
+                "text": "\"Зло неконтейнируемо - оно,\nк сожалению, будет расползаться\".",
+                "color": [
+                    161,
+                    200,
+                    150
+                ]
+            }
+        }
     }
 }
