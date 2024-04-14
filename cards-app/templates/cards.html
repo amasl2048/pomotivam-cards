@@ -30,10 +30,10 @@
 
     <img src={{ image }} alt="" width="360" height="240"/>
 
-    <p><a href="/card?card={{prev}}">Prev</a> | <a href="/card?card={{next}}">Next</a></p>
-    <p>Choose card from <a href="/card?card=1">1</a> .. <a href="/card?card={{len}}">{{len}}</a> </p>
+    <p><a href="/cards?card={{prev}}">Prev</a> | <a href="/cards?card={{next}}">Next</a></p>
+    <p>Choose card from <a href="/cards?card=1">1</a> .. <a href="/cards?card={{len}}">{{len}}</a> </p>
 
-    <form action="/card" method="GET">
+    <form action="/cards" method="GET">
         <p>
             Card # <input name="card" type="text" value="{{ len }}"> 
             <input type="submit" value="Get">

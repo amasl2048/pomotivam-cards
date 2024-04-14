@@ -76,7 +76,7 @@ def root():
     return render_card(LEN)
 
 
-@app.route('/card', methods=['GET'])
+@app.route('/cards', methods=['GET'])
 def show_card():
     card = request.args.get("card")
     return render_card(card)
