@@ -3,7 +3,7 @@ services:
   cards: # container name
     build: cards-app
     volumes:
-      - ./cardchain.json:/home/app/cardchain.json:ro
+      - ./cardchain.json:/home/app/static/cardchain.json:ro
       - ./output-cards:/home/app/static/output-cards:ro
     networks:
       - nginx-cards

@@ -7,9 +7,10 @@ import json
 
 APP_PORT = 8888
 app = Flask(__name__)
+app.config['CARDCHAIN'] = os.path.join("static")
 app.config['CARDS_FOLDER'] = os.path.join("static", "output-cards")
 
-with open("cardchain.json", "r") as f:
+with open(app.config['CARDCHAIN'], "r") as f:
     CHAIN = json.load(f)
 
 LEN = len(CHAIN.keys())
@@ -51,13 +52,17 @@ def render_card(card: str):
     else:
         tag, author, quote = taq(card)
 
-    prev = str(int(card) - 1)
-    next = str(int(card) + 1)
+    prev = int(card) - 1
+    next = int(card) + 1
+    if next > LEN:
+        next = LEN
+    if prev < 1:
+        prev = 1
 
     return render_template("cards.html",
                            len=str(LEN),
-                           prev=prev,
-                           next=next,
+                           prev=str(prev),
+                           next=str(next),
                            card=card,
                            tag=tag,
                            author=author,
