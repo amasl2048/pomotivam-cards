@@ -7,10 +7,9 @@ import json
 
 APP_PORT = 8888
 app = Flask(__name__)
-app.config['CARDCHAIN'] = os.path.join("static")
 app.config['CARDS_FOLDER'] = os.path.join("static", "output-cards")
 
-with open(app.config['CARDCHAIN'], "r") as f:
+with open("static/cardchain.json", "r") as f:
     CHAIN = json.load(f)
 
 LEN = len(CHAIN.keys())
