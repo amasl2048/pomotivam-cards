@@ -15,6 +15,26 @@ with open("static/cardchain.json", "r") as f:
 LEN = len(CHAIN.keys())
 
 
+def search_tag(tag: str):
+
+    error = ""
+
+    cards = []
+
+    for card in CHAIN.keys():
+
+        if CHAIN[card]["card"]["body"]["tag"][1:] == tag:
+            cards.append((card, CHAIN[card]["card"]["body"]["text"]))
+
+    if cards:
+        author = CHAIN[cards[0][0]]["card"]["body"]["author"]
+    else:
+        error = "No such tag"
+        return error, "", []
+
+    return error, author, cards
+
+
 def chain_error(card: str):
 
     error = ""
@@ -70,6 +90,15 @@ def render_card(card: str):
                            chain=chain_txt,
                            error=error)
 
+def render_tag(tag: str):
+
+    error, author, cards = search_tag(tag)
+
+    return render_template("tag.html",
+                        tag=tag,
+                        author=author,
+                        cards=cards,
+                        error=error)
 
 @app.route('/', methods=['GET'])
 def root():
@@ -80,6 +109,11 @@ def root():
 def show_card():
     card = request.args.get("card")
     return render_card(card)
+
+@app.route('/tags', methods=['GET'])
+def show_tag():
+    tag = request.args.get("tag")
+    return render_tag(tag)
 
 
 if __name__ == "__main__":

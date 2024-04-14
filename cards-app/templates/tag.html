@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Список высказываний {{ tag }} | Cardchain Pomoticam Cards</title>
+    <meta name="description" content="{{ author }} высказал(а) интересную мысль. Эти высказывания служат карточками, передающими суть той или иной идеи." />
+    <meta name="keywords" content="{{ author }}, {{ tag }}, высказывания известных людей, карточки с цитатами, quote cards, Pomotivam cards, cardchain">
+</head>
+
+<body>
+
+    <h1>{{ author }}</h1>
+    <h2>#{{ tag }}</h2>
+
+    {% for card, text in cards %}
+    <p><a href="/cards?card={{card}}">Карточка № {{ card }}</a> - {{ text }}</p>
+    {% endfor %}
+
+    <p style="color:Tomato;">{{ error }}</p>
+
+</body>
+
+</html>

@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-EN">
+<html lang="ru-RU">
 
 <head>
-    <title>Card Chain #{{ card }} - {{ tag }}</title>
+    <meta charset="UTF-8" />
+
+    <title>{{ author }} - Карточка № {{ card }} | Cardchain Pomoticam Cards</title>
+    <meta name="description" content="{{ author }} высказал(а) интересную мысль. Эти высказывания служат карточками, передающими суть той или иной идеи." />
+    <meta name="keywords" content="{{ author }}, {{ tag }}, высказывания известных людей, карточки с цитатами, quote cards, Pomotivam cards, cardchain">
+
     <style>
         #raw {
             font-family: "Courier New";
@@ -24,11 +29,13 @@
 
 <body>
 
-    <h1><p>{{ tag }} - Pomotivam Card No. {{ card }}</p></h1>
-    <h2><p>{{ author }}</p></h2>
-    <p><em>{{ quote }}</em></p>
+    <h1>{{ author }}</h1>
+    <h2><em>{{ quote }}</em></h2>
+    <p><a href="/static/output-cards/{{card}}.png">Pomotivam Card No. {{ card }}</a></p>
 
     <img src={{ image }} alt="" width="360" height="240"/>
+
+    <p><a href="/tags?tag={{tag}}">#{{ tag }}</a></p>
 
     <p><a href="/cards?card={{prev}}">Prev</a> | <a href="/cards?card={{next}}">Next</a></p>
     <p>Choose card from <a href="/cards?card=1">1</a> .. <a href="/cards?card={{len}}">{{len}}</a> </p>
