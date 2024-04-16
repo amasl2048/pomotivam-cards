@@ -7,6 +7,7 @@
     <title>Список высказываний {{ tag }} | Cardchain Pomoticam Cards</title>
     <meta name="description" content="{{ author }} высказал(а) интересную мысль. Эти высказывания служат карточками, передающими суть той или иной идеи." />
     <meta name="keywords" content="{{ author }}, {{ tag }}, высказывания известных людей, карточки с цитатами, quote cards, Pomotivam cards, cardchain">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <p><a href="/cards?card={{card}}">Карточка № {{ card }}</a> - {{ text }}</p>
     {% endfor %}
 
-    <p style="color:Tomato;">{{ error }}</p>
+    <p style="color:firebrick;">{{ error }}</p>
 
 </body>
 

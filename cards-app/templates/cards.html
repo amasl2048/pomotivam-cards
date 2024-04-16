@@ -7,6 +7,7 @@
     <title>{{ author }} - Карточка № {{ card }} | Cardchain Pomoticam Cards</title>
     <meta name="description" content="{{ author }} высказал(а) интересную мысль. Эти высказывания служат карточками, передающими суть той или иной идеи." />
     <meta name="keywords" content="{{ author }}, {{ tag }}, высказывания известных людей, карточки с цитатами, quote cards, Pomotivam cards, cardchain">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
         #raw {
@@ -42,12 +43,12 @@
 
     <form action="/cards" method="GET">
         <p>
-            Card # <input name="card" type="text" value="{{ len }}"> 
+            <label>Card # <input name="card" type="text" value="{{ len }}"></label>
             <input type="submit" value="Get">
         </p>
     </form>
 
-    <p style="color:Tomato;">{{ error }}</p>
+    <p style="color:firebrick;">{{ error }}</p>
 
     <button onclick="myFunction()">Show raw</button>
     <pre  id="raw"> {{ chain }} </pre>
