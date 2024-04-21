@@ -30,13 +30,15 @@
 
 <body>
 
+    <p> <a href="/">Home</a> | <a href="/tags">Authors</a></p>
+
     <h1>{{ author }}</h1>
     <h2><em>{{ quote }}</em></h2>
     <p><a href="/static/output-cards/{{card}}.png">Pomotivam Card No. {{ card }}</a></p>
 
     <img src={{ image }} alt="" width="360" height="240"/>
 
-    <p><a href="/tags?tag={{tag}}">#{{ tag }}</a></p>
+    <p><a href="/author?tag={{tag}}">#{{ tag }}</a></p>
 
     <p><a href="/cards?card={{prev}}">Prev</a> | <a href="/cards?card={{next}}">Next</a></p>
     <p>Choose card from <a href="/cards?card=1">1</a> .. <a href="/cards?card={{len}}">{{len}}</a> </p>

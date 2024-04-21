@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Список авторов | Cardchain Pomotivam Cards</title>
+    <meta name="description" content="Высказывания известных людей служат карточками, передающими суть той или иной идеи." />
+    <meta name="keywords" content="Высказывания известных людей, карточки с цитатами, quote cards, Pomotivam cards, cardchain">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <p> <a href="/">Home</a> | <a href="/tags">Authors</a></p>
+
+    <h1>Список авторов</h1>
+
+    {% for tag, name in authors %}
+    <p><a href="/author?tag={{tag}}">#{{ tag }}</a> - {{ name }} </p>
+    {% endfor %}
+
+</body>
+
+</html>

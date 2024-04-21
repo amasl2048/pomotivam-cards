@@ -15,7 +15,25 @@ with open("static/cardchain.json", "r") as f:
 LEN = len(CHAIN.keys())
 
 
-def search_tag(tag: str):
+def create_tags(CHAIN: dict) -> list:
+    tags = set()
+    tag_author = []
+
+    for card in CHAIN.keys():
+
+        author = CHAIN[card]["card"]["body"]["author"]
+        tag = CHAIN[card]["card"]["body"]["tag"][1:]
+
+        if tag not in tags:
+            tags.add(tag)
+            tag_author.append((tag, author))
+
+    return sorted(tag_author)
+
+AUTHORS = create_tags(CHAIN)
+
+
+def search_author(tag: str):
 
     error = ""
 
@@ -90,31 +108,38 @@ def render_card(card: str):
                            chain=chain_txt,
                            error=error)
 
-def render_tag(tag: str):
+def render_author(tag: str):
 
-    error, author, cards = search_tag(tag)
+    error, author, cards = search_author(tag)
 
-    return render_template("tag.html",
+    return render_template("author.html",
                         tag=tag,
                         author=author,
                         cards=cards,
                         error=error)
 
+def render_tags():
+
+    return render_template("tags.html",
+                        authors=AUTHORS)
+
 @app.route('/', methods=['GET'])
 def root():
     return render_card(LEN)
-
 
 @app.route('/cards', methods=['GET'])
 def show_card():
     card = request.args.get("card")
     return render_card(card)
 
-@app.route('/tags', methods=['GET'])
-def show_tag():
+@app.route('/author', methods=['GET'])
+def show_author():
     tag = request.args.get("tag")
-    return render_tag(tag)
+    return render_author(tag)
 
+@app.route('/tags', methods=['GET'])
+def show_tags():
+    return render_tags()
 
 if __name__ == "__main__":
     app.run(debug = True, host = "0.0.0.0", port = APP_PORT)
